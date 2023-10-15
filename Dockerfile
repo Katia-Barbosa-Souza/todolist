@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y maven
 RUN mvn clean install
 
 # Troque para a imagem OpenJDK 17 slim para a execução
-FROM adoptopenjdk:17-jre-slim
+FROM openjdk:17-jre-slim
 
 # Exponha a porta 8080, se necessário
 EXPOSE 8080
