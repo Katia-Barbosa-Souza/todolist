@@ -1,0 +1,46 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### log ###
+hs_err_pid3056.log
+hs_err_pid4636.log
+hs_err_pid4712.log
+hs_err_pid10160.log
+hs_err_pid10892.log
+hs_err_pid11452.log
+hs_err_pid13552.log
+hs_err_pid14944.log
+hs_err_pid20296.log
+replay_pid4636.log
+replay_pid20296.log
